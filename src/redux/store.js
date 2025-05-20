@@ -6,7 +6,7 @@ import { contactsReducer } from "./contactsSlice";
 import storage from "redux-persist/es/storage";
 
 const persistConfig = {
-  key: "contacts",
+  key: "root",
   storage,
 };
 
